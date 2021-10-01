@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    background:white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: blue;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    float: left;
+}
+
+.ulHeader { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.liHeader {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 27px;
+
+    position: relative;
+}
+
+.navbarstyle {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color:white;
+}
+
+
+.footer-content {
+    padding: 0.1rem;
+    text-align: center;
+}
+
+footer {
+    background: rgb(83, 83, 83);
+    color: white;
+    padding: 0.3em;
+    margin-top: auto;
+}
+
+.contactinfo {
+    list-style: none;
+    text-align: left;
+}

@@ -1,0 +1,58 @@
+
+.body{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.ulHobbies {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.borderhobbiesquote {
+    display: grid;
+    padding: 0;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    gap: 5px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.borderhobbiesquote article {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.leftgrid {
+    grid-column-start:1;
+    grid-column-end: 1;
+    
+}
+
+.middlegrid {
+    grid-column-start:2;
+    padding: 0;
+    font-size: 14px;
+}
+
+.quoteslist {
+    margin: 0;
+    padding-left:  30px;
+    padding-right: 30px;
+    padding-bottom: 20px;   
+}
+ 
+.rightgrid {
+    grid-column-start:3;
+    grid-column-end: 3;
+}

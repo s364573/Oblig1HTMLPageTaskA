@@ -1,0 +1,26 @@
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.projectsBody {
+    display: grid;
+    padding: 0;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    gap: 5px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.projectsBody article {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
